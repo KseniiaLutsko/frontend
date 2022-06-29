@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Sonsie One;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Sonsie One;
+}
+
+@font-face {
+    font-family: Open Sans Condensed;
+}
+
+body {
+    font-family: Open Sans Condensed;
+}
+
+.header {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 45%;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.header.h2 {
+    margin-top: 12px;
+    margin-bottom: 22px;
+    margin-left: 35%;
+    color: black;
+}
+
+.header.h2.fixed_margin {
+    margin-left: 8%;
+}
+
+h2{
+    margin: 10px;
+}
+
+li {
+    text-decoration: underline;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.headers {
+    color: black;
+    background: rosybrown;
+    display: flex;
+    width: 93%;
+    margin-left: 57px;
+    margin-bottom: 30px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu_item {
+    text-transform: uppercase;
+    padding-right: 239px;
+}
+
+.main_section {
+    color: black;
+    background: white;
+    width: 60%;
+}
+.main_section.bottom {
+    margin-left: 55px;
+    width: 93%;
+}
+
+.right_section {
+    background: rosybrown;
+    width: 30%;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul.a {
+    list-style-type: circle;
+    display: inline-block;
+
+}
+
+.general{
+    justify-content: space-between;
+}
+
+p{
+    margin:10px;
+}
+
+
+
+
+ 
